@@ -1,0 +1,44 @@
+{
+  "Users": [
+    {
+      "name": "Amal ",
+      "email": "amal@gmail.com",
+      "phone": "0111111155",
+      "address": {
+        "street": "El-Gomhoria",
+        "city": "Naser city"
+      },
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Fatma",
+      "phone": "02222222",
+      "email": "fatma@gmail.com",
+      "address": {
+        "street": "El-Gomhoria",
+        "city": "Naser city"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Amany",
+      "phone": "0333333333",
+      "email": "amany@gmail.com",
+      "address": {
+        "street": "El-Gomhoria",
+        "city": "Naser city"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Memy",
+      "phone": "04444444",
+      "email": "memy@gmail.com",
+      "address": {
+        "street": "El-Gomhoria",
+        "city": "Naser city"
+      }
+    }
+  ]
+}

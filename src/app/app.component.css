@@ -1,0 +1,14 @@
+.active {
+    color: rgb(223, 39, 192);
+    border-bottom: 1px solid rgb(223, 39, 192);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(190, 129, 191);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}

@@ -1,0 +1,25 @@
+<form class="form text-center m-2">
+    <div class="form-group m-2">
+        <label class="m-2">Name: </label>
+        <input name="name" #name type="text" [value]="user.name">
+    </div>
+    <div class="form-group m-2">
+        <label class="m-2">Email: </label>
+        <input name="email" #email type="text" [value]="user.email">
+    </div>
+    <div class="form-group m-2">
+        <label class="m-2">Phone: </label>
+        <input name="phone" #phone type="text" [value]="user.phone">
+    </div>
+    <div class="form-group m-2">
+        <label class="m-2">Street: </label>
+        <input name="street" #street type="text" [value]="user.address.street">
+    </div>
+    <div class="form-group m-2">
+        <label class="m-3">City: </label>
+        <input name="city" #city type="text" [value]="user.address.city">
+    </div>
+    <div class="form-group m-2">
+        <input name="btn" type="button" value="Update" (click)="update(name.value, email.value, phone.value,street.value,city.value)">
+    </div>
+</form>

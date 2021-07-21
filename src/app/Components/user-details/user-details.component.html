@@ -1,0 +1,11 @@
+<div *ngIf="user;else falseBlock" class="alert text-center" style="width: 80%; margin: 10px auto;background-color: rgb(241, 198, 223);color: rgb(105, 108, 110);">
+    <h1>Hello Ya {{user.name}}</h1>
+    <h3>Email: {{user.email}}</h3>
+    <h3>Phone: {{user.phone}}</h3>
+    <h3>Street: {{user.address.street}}</h3>
+    <h3>Email: {{user.address.city}}</h3>
+</div>
+
+<ng-template #falseBlock>
+    <h1>Loading Data...</h1>
+</ng-template>

@@ -1,0 +1,27 @@
+<div style="width: 80%; margin: 10px auto;">
+    <table class="table">
+        <thead class="bg-light m-1">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Street</th>
+                <th scope="col">City</th>
+                <th scope="col">Operations</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let u of users">
+                <th scope="row">{{u.id}}</th>
+                <td>{{u.name}}</td>
+                <td>{{u.address.street}}</td>
+                <td>{{u.address.city}}</td>
+                <td>
+                    <a routerLink="/users/{{u.id}}">Details</a> <span> | </span>
+                    <a routerLink="/updateuser/{{u.id}}">Update</a><span> | </span>
+                    <a routerLink="/users" (click)="delete($event)">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>

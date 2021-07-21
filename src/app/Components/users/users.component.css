@@ -1,0 +1,13 @@
+a {
+    color: rgb(206, 78, 148);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(243, 167, 209);
+    text-decoration: underline;
+}
+
+span {
+    color: #f376b0;
+}
